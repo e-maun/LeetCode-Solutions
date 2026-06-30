@@ -16,7 +16,7 @@ public class Solution {
                };
                return arr;
             }
-                map.Add(nums[i], i);
+                map.TryAdd(nums[i], i);
         }
         return new int[]  {};
     } 
